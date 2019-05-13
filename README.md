@@ -10,8 +10,8 @@ Við þurfum að geta svarað **_Q_** fyrispurnum af þessu formi: Ef við myndu
 Þar sem að 1 ≤ **_S_** ≤ **_N_** ≤ 10<sup>5</sup> og 1 ≤ **_Q_** ≤ 10<sup>5</sup> og við gefum forritinu 3 sekúndur í keyrslu.
 
 ## Lausn á minna dæmi
-Ef við hugsum okkur að 1 ≤ **_N_**, **_Q_** ≤ 1000 þá er þetta ekkert rosalega erfitt dæmi
-
+Ef við hugsum okkur að 1 ≤ **_N_**, **_Q_** ≤ 1000 þá er þetta ekkert rosalega erfitt dæmi. Eina sem við þurfum að gera er BFS (Breadth First Search) yfir tréið frá **_R_** án þess að nota legg **_I_**.
 ![bfs](https://piskel-imgstore-b.appspot.com/img/25ca7947-7568-11e9-9c69-014fc5b19ac6.gif)
 
-![tree1](http://cdncontribute.geeksforgeeks.org/wp-content/uploads/longestPathInTree.png)
+Meðan við göngum í gegnum tréð skulum við alltaf geyma stiðstu vegalengd í búð og ef við hittum á útgangs nóðuna hættum við að ganga.
+Þetta gefur okkur tímaflækjuna O(**_NQ_**)
