@@ -7,6 +7,11 @@ Við þurfum að geta svarað **_Q_** fyrispurnum af þessu formi: Ef við myndu
 * Ef ekki er hægt að komast í búð frá **_R_** (án þess að nota legg **_I_**)?
 * Ef svo hver er styðsta búðin frá **_R_** (án þess að nota legg **_I_**)?
 
-![eq1](http://www.sciweavers.org/upload/Tex2Img_1557670981/render.png)
+Þar sem að 1 ≤ **_S_** ≤ **_N_** ≤ 10<sup>5</sup> og 1 ≤ **_Q_** ≤ 10<sup>5</sup> og við gefum forritinu 3 sekúndur í keyrslu.
+
+## Lausn á minna dæmi
+Ef við hugsum okkur að 1 ≤ **_N_**, **_Q_** ≤ 1000 þá er þetta ekkert rosalega erfitt dæmi
+
+![bfs](https://piskel-imgstore-b.appspot.com/img/25ca7947-7568-11e9-9c69-014fc5b19ac6.gif)
 
 ![tree1](http://cdncontribute.geeksforgeeks.org/wp-content/uploads/longestPathInTree.png)
