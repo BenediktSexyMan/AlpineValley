@@ -23,3 +23,5 @@ Ef við viljum betri lausn þarf að hugsa um tréð sem rótað tré (rooted tr
 Nú er spurningin hvernig við athugum hvort **_R_** sé í hluttré **_u_**. Heppilega er það frekar létt að athuga. Við gerum DFS (Depth First Search) yfir tréð frá **_E_** í byrjun keyrslu og geymum hvenær við göngum í og úr nóðu. Við vitum þá að **_R_** sé í hluttré **_u_** ef <b><i>enter<sub>u</sub> ≤ enter<sub>R</sub> ≤ exit<sub>u</sub></i></b> sé satt.
 
 ![dfs](https://piskel-imgstore-b.appspot.com/img/a51438fa-7579-11e9-828e-014fc5b19ac6.gif)
+
+Með þessari DFS yfirferð getum við svarað öllum fyrirspurnum þar sem hægt er að komast frá **_R_** í **_E_** í O(1) tíma með fyrirfram reiknum sem tekur O(**_N_**) tíma.
