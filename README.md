@@ -7,13 +7,6 @@ Við þurfum að geta svarað **_Q_** fyrispurnum af þessu formi: Ef við myndu
 * Ef ekki er hægt að komast í búð frá **_R_** (án þess að nota legg **_I_**)?
 * Ef svo hver er styðsta búðin frá **_R_** (án þess að nota legg **_I_**)?
 
-
-1 ≤ **_S_** ≤ **_N_** ≤ 10<sup>5</sup>
-
-1 ≤ **_Q_** ≤ 10<sup>5</sup> 
+![eq1](http://www.sciweavers.org/upload/Tex2Img_1557670981/render.png)
 
 ![tree1](http://cdncontribute.geeksforgeeks.org/wp-content/uploads/longestPathInTree.png)
-
-Einn bær er skilgreindur sem útgöngu eða exit bær og sumir bæjir hafa búðir.
-
-![eq1](http://www.sciweavers.org/upload/Tex2Img_1557670981/render.png)
