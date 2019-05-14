@@ -1,6 +1,6 @@
 # Skilgreining
 
-Í dæminu Alpine Valley frá BOI 2019 (Baltic Olympiad in Informatics) er okkur gefið tré með **_N_** nóðum með sérstaka útgangs eða exit nóðu **_E_**. Einnig eru **_S_** sérstakar nóður sem hafa búðir.
+Í dæminu [Alpine Valley](http://boi2019.eio.ee/wp-content/uploads/2019/04/valley.en_.pdf) frá [BOI 2019](http://boi2019.eio.ee/) (Baltic Olympiad in Informatics) er okkur gefið tré með **_N_** nóðum með sérstaka útgangs eða exit nóðu **_E_**. Einnig eru **_S_** sérstakar nóður sem hafa búðir.
 Við þurfum að geta svarað **_Q_** fyrispurnum af þessu formi: Ef við myndum tímabundið eiða legg **_I_**.
 * Er hægt að komast að nóðu **_E_** frá nóðu **_R_** (án þess að nota legg **_I_**)?
 * Ef ekki er hægt að komast í búð frá **_R_** (án þess að nota legg **_I_**)?
