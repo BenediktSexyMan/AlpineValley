@@ -42,4 +42,4 @@ Segjum að við myndum hoppa í gegnum tréð í veldum af 2 og byrjum á 0. Þ�
 
 Eftir að búa til **_jmpv_** og **_jmpm_** (sem að tekur **_N log N_** tíma) getum við fundið minnsta **_mag[U]_** með því að hoppa eins hátt og við getum sem mun aldrei vera meira en **_log N_** hopp.
 
-Þá erum við loks komin með tímaflækjuna O(**_N log N + Q log N_**).
+Þá erum við loks komin með tímaflækjuna O(**_(N + Q) log N_**).
