@@ -23,7 +23,7 @@ Nú er spurningin hvernig við athugum hvort **_R_** sé í hluttré **_u_**. He
 
 ![dfs](https://piskel-imgstore-b.appspot.com/img/a51438fa-7579-11e9-828e-014fc5b19ac6.gif)
 
-Með þessari DFS yfirferð getum við svarað öllum fyrirspurnum þar sem hægt er að komast frá **_R_** í **_E_** í O(1) tíma með fyrirfram reiknum sem tekur O(**_N_**) tíma.
+Með þessari DFS yfirferð getum við svarað öllum fyrirspurnum þar sem ekki er hægt að komast frá **_R_** í **_E_** í O(1) tíma með fyrirfram reiknum sem tekur O(**_N_**) tíma.
 
 Nú er síðasti hluti dæmissins, hvar er styðsta búðin. Fyrir það þurfum við að nota aðferð sem kallast tvíundarhopp (binary jumping eða binary lifting). Segjum að <b><i>dist<sub>E</sub></i>[V]</b> sé vegalend einhverrar nóðu **_V_** frá **_E_**. Segjum einnig að **_P_** sé styðsta búðin frá **_R_** sem við viljum finna. Fyrst að þetta er rótað tré þá getum við vitað lengdina á milli **_R_** og **_P_** ef við vitum lca(**_R_**,**_P_**) þar sem lca þýðir fyrsti sameiginlegi forfaðir (lowest common ancestor). Vegalengdin á milli **_R_** og **_P_** er þá <b><i>dist<sub>E</sub>[R] + dist<sub>E</sub>[P] - 2dist<sub>E</sub>[lca(R,P)]</i></b>. Fyrst við vitum bara **_R_** í þessari formúlu þurfum við að finna restina. Ef við segjum að <b><i>mag[U] = dist<sub>E</sub>[P] - 2dist<sub>E</sub>[U]</i></b> þar sem **_P_** sé búðin styðst frá **_U_** í hluttré **_U_** (mag stutt fyrir magnitude). Þá vitum við að ef **_P_** sé styðsta búðin frá **_R_** þá er lengdin á milli **_R_** og **_P_**: <b><i>dist<sub>E</sub>[R] + mag[U]</i></b>.
 
